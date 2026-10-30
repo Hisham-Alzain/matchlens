@@ -60,7 +60,7 @@ decided by the restart that follows, severable xG/xA/xT value models, statistics
 all written to a match record. A FastAPI engine streams tracks and events over WebSockets
 to a React/Electron client that draws the overlays on the original video.
 
-Details and the reasoning behind the main design choices: [docs/architecture.md](docs/architecture.md).
+Details and the reasoning behind the main design choices: [docs/architecture.docx](docs/architecture.docx).
 
 ---
 
@@ -84,13 +84,13 @@ independent providers (3,791 annotated events). Micro-averaged; weak results inc
 | Possession | frame accuracy; split error | 75–78 %; 0.36–0.65 pp | Metrica, Sportec |
 
 Metric definitions, per-clip spreads, the attribution ladder, test conditions and
-limitations: [docs/evaluation.md](docs/evaluation.md).
+limitations: [docs/evaluation.docx](docs/evaluation.docx).
 
 ---
 
 ## Who built what
 
-Credits are given by role; see [docs/team.md](docs/team.md) for what each role implemented,
+Credits are given by role; see [docs/team.docx](docs/team.docx) for what each role implemented,
 evaluated and designed.
 
 - **Perception and tracking** — detection model tiers and TensorRT export, pitch keypoints and
